@@ -80,8 +80,8 @@ if ($NEW_INVOICE)
     'price_currency' => 'BTC',
     'base_price' => '7.00',
     'base_price_currency' => 'USD',
-    'notification_level' => 'all',
-    'confirmations_required' => 5
+    'callback_url' => 'https://www.example.com/redirect',
+    'callback_url' => 'https://www.example.com/redirect'
   );
   $new_invoice = GoCoin::createInvoice($token,MERCHANT_ID,$new_invoice);
   //var_dump($new_invoice);
