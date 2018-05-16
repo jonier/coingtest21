@@ -16,8 +16,8 @@ class GoCoin
   const TEST_HOST = "api.gocoin.com";
   const TEST_DASHBOARD_HOST = "dashboard.gocoin.com";
 
-  //static private $API_MODE = 'production';
-  static private $API_MODE = 'test';
+  static private $API_MODE = 'production';
+  //static private $API_MODE = 'test';
 
   /**
    * @return the version of this client library
